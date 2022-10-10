@@ -1,3 +1,6 @@
+// Compilation de l'exercice 1.5 (operateurs.c) et 1.8 (operateurs2.c) étant donné qu'on réutilise le même exercice (opérateurs.c)
+// Pour avoir l'exercice 1.5, il faut imposer num1 = 16 et num2 = 3
+
 #include <stdio.h>
 
 int main() {
