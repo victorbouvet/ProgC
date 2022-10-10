@@ -27,4 +27,4 @@ int main() {
 }
 
 /* plutôt simple une fois qu'on a pensé au modulo et reste */
-/* oubli du compteur au début et affichage des 1000 valeurs dans la mémoire avec à la fin la valeur binaire */
+/* au départ : oubli du compteur et affichage des 1000 valeurs dans la mémoire avec à la fin la valeur binaire (C'EST CORRIGE) */
