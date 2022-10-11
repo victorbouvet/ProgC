@@ -12,13 +12,13 @@ int conversion_binaire() {
 
     int reste = variable;
 
-    for(i=0; reste != 0; i++) {
+    for(i=0; reste != 0; i++) { //conversion decimale > binaire en utilisant le modulo 
         tab_binaire[i] = reste%2;
         reste = reste/2;
         cpt = cpt + 1;
     }
 
-    for(i=cpt-1;i>=0;i--) {
+    for(i=cpt-1;i>=0;i--) { //décrémentation pour respecter la règle de lire de la fin vers le début
         printf("%d",tab_binaire[i]);
     }
 
