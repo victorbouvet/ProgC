@@ -11,37 +11,37 @@ int main() {
 
     switch (op) {
         case '+': ;
-        printf("%i\n", num1+num2);
+        printf("%i\n", num1+num2); //somme
 
             break;
 
         case '-': ;
-        printf("%i\n", num1-num2);
+        printf("%i\n", num1-num2); //division
 
             break;
 
         case '/': ;
-        printf("%i\n", num1/num2);
+        printf("%i\n", num1/num2); //quotient
 
             break;
 
         case '%': ;
-        printf("%i\n", num1%num2);
+        printf("%i\n", num1%num2); //modulo
 
             break;
 
         case '*': ;
-        printf("%i\n", num1*num2);
+        printf("%i\n", num1*num2); //produit
 
             break;
 
         case '&': ;
-        printf("%i\n", num1&num2);
+        printf("%i\n", num1&&num2); //ET logique
 
             break;
 
         case '|': ;
-        printf("%i\n", num1|num2);
+        printf("%i\n", num1||num2); //OU logique
 
             break;
     }
