@@ -8,7 +8,7 @@
 * man linux
 
 # Difficulté
-* facile sauf l'exo boucles.c qui était vraiment dur à conceptualiser (code à écrire pour avoir le résultat souhaité)
+* facile sauf l'exo boucles.c qui était vraiment dur à conceptualiser au départ (quel code à écrire pour avoir le résultat souhaité surtout avec les #)
 
 # Commentaires
 * SEARCH
