@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    printf("char : %ld\n", sizeof(char));
+    printf("char : %ld\n", sizeof(char)); //affichage de la taille en octets de l'opérande char
     printf("short : %ld\n", sizeof(short));;
     printf("int : %ld\n", sizeof(int));
     printf("long : %ld\n", sizeof(long));
