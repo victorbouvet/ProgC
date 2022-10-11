@@ -13,13 +13,13 @@ int main() {
 
     int reste = variable;
 
-    for(i=0; reste != 0; i++) {
+    for(i=0; reste != 0; i++) { //boucle for pour faire des divisions euclidiennes (conversion décimale > binaire)
         tab_binaire[i] = reste%2;
         reste = reste/2;
         cpt = cpt + 1;
     }
 
-    for(i=cpt-1;i>=0;i--) {
+    for(i=cpt-1;i>=0;i--) { //décrémentation car l'ordre de la conversion est inversée (lire de la fin vers le début de la 1ere boucle)
         printf("%d",tab_binaire[i]);
     }
 
