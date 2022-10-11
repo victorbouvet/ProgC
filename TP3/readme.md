@@ -12,6 +12,7 @@
 # Difficulté
 * exercice 3.7 (couleur_compteur.c) assez simple à conceptualiser l'algorithme mais j'ai eu des problèmes
 avec break qui sortait des deux boucles au lieu d'uniquement la dernière
+* énoncé de octets.c pas très clair
 
 # Commentaires
 * 
