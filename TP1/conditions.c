@@ -11,7 +11,7 @@ int main() {
             int division2 = 15;
 
             for (i=0; i<1000; i++) {
-                if (i%division1 == 0 && i%division2 == 0) {
+                if (i%division1 == 0 && i%division2 == 0) { //verifie que la division est possible pour les deux nombres avec le reste égal à 0, sinon c'est faux
                 printf("%i\n",i);
                 }
             }
@@ -23,7 +23,7 @@ int main() {
             int division4 = 107;
 
             for (i=0; i<1000; i++) {
-                if (i%division3 == 0 || i%division4 == 0) {
+                if (i%division3 == 0 || i%division4 == 0) { //verifie que la division est valable pour l'un ou l'autre des deux nombres (d'où le ||)
                 printf("%i\n",i);
                 }
             }
@@ -36,7 +36,7 @@ int main() {
             int notdivision = 3;
 
             for (i=0; i<1000; i++) {
-                if ((i%division5 == 0 || i%division6 == 0) && i%notdivision != 0) {
+                if ((i%division5 == 0 || i%division6 == 0) && i%notdivision != 0) { //verifie que la division pour l'un ou l'autre des deux nombres est possible ET pas par le 3ème nombre
                 printf("%i\n",i);
                 }
             }
@@ -46,4 +46,6 @@ int main() {
     }
 }
 
-/* Syntaxe du switch case qui faisait des bugs ( case : ; / pas les memes variables pour chaque case) */
+/* 
+Au début : Syntaxe du switch case qui faisait des bugs ( "case blablabla : ;" / pas les memes variables pour chaque case) 
+*/
