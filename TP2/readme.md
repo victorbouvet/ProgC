@@ -1,7 +1,6 @@
 # Bibliothèques
 * stdio.h
 * string.h
-* math.h
 * stdlib.h
 
 # Références
