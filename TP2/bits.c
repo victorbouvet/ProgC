@@ -20,7 +20,7 @@ int conversion_binaire() {
     }
 
     for(i=cpt-1;i>=0;i--) { //décrémentation pour lire en binaire (partir de la fin vers le début)
-        tableau[i] = tab_binaire[i];
+        tableau[i] = tab_binaire[i]; //stockage dans tableau de chaque bit
         printf("%i", tableau[i]);
     }
     
