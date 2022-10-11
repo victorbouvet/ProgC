@@ -9,7 +9,7 @@
 * The C Programming Language, Brian KERNIGHAN
 
 # Difficulté
-* dernier exercice tableauptr.c assez compliqué
+* ptrvariables : énoncé compliqué à comprendre
 
 # Commentaires
 * 
